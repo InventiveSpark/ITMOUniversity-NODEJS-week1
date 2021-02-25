@@ -1,10 +1,11 @@
 {
   "headers": {
-    "/": {
-    "X-Author": "artemiyloschenkov"
-    },
     "/**": {
       "Access-Control-Allow-Origin": "*"
+    },
+    "/": {
+    "X-Author": "artemiyloschenkov"
+    "Access-Control-Allow-Origin": "*"
     }
   },
     "routes": {
