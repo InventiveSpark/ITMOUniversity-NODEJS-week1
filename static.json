@@ -4,17 +4,13 @@
     "X-Author": "artemiyloschenkov",
     "Access-Control-Allow-Origin": "*"
     },
-    "/login/*": {
+    "/login/*", "/sample/*": {
     "Access-Control-Allow-Origin": "*"
     },
-    "/sample/*": {
-    "Access-Control-Allow-Origin": "*"
-    }   
   },
     "routes": {
     "/*.html": "index.html",
     "/login/*": "login/login.txt",
     "/sample/*": "sample/sample.txt"
   }
-  
 }
