@@ -14,7 +14,7 @@
     "routes": {
     "/*.html": "index.html",
     "/login/*": "login/login.txt",
-    "/sample/*": "sample/sample.js"
+    "/sample/*": "sample/sample.txt"
   }
   
 }
