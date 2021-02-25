@@ -4,7 +4,7 @@
       "Access-Control-Allow-Origin": "*"
     },
     "/*": {
-    "X-Author": "artemiyloschenkov",
+    "X-Author": "artemiyloschenkov"
     }
   },
     "routes": {
