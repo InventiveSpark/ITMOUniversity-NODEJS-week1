@@ -1,7 +1,8 @@
 {
   "headers": {
     "/*": {
-    "X-Author": "artemiyloschenkov"
+    "X-Author": "artemiyloschenkov",
+    "Access-Control-Allow-Origin": "*"
     },
     "/**": {
       "Access-Control-Allow-Origin": "*"
