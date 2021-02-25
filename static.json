@@ -1,12 +1,11 @@
 {
   "headers": {
+    "/**": {
+      "Access-Control-Allow-Origin": "*"
+    },
     "/*": {
     "X-Author": "artemiyloschenkov",
-    "Access-Control-Allow-Origin": "*"
-    },
-    "/login/*", "/sample/*": {
-    "Access-Control-Allow-Origin": "*"
-    },
+    }
   },
     "routes": {
     "/*.html": "index.html",
