@@ -12,7 +12,6 @@
       "/login/*": "login/login.txt",
       "/sample/*": "sample/sample.txt",
       "/promise/*": "promise/promise.txt",
-      "/fetch/*": "fetch/"
-      
+      "/fetch/*": "fetch/index.html"
   }
 }
