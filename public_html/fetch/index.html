@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>ITMOUniversity-NODEJS-week3</title>
+  </head>
+
+  <body>
+
+    <form id="form" action="#">
+      <input
+        id="inp"
+        type="url"
+        enctype="application/x-www-dorm-urlencoded"
+        placeholder="Input URL"
+      />
+      <input id="bt" type="submit" value="Send" onClick="sendURL();" />
+    </form>
+
+    <script>
+      /*Получение элементов c указанными id:*/
+      const InputField = document.getElementById("inp");
+      const Form = document.getElementById("form");
+      function sendURL() {
+        /*У каждого элемента <input> есть свойство value, которое содержит текущее значение этого элемента.*/
+        /*Вызов функции fetch(), в качестве одного аргумента передается адрес страницы из поля ввода:*/
+        fetch(InputField.value)
+          /*В объекте response, который вернула функция Fetch, вызывается метод then() и в него передается результат ответа, который затем декодируется в текст:*/
+          .then((response) => response.text())
+          /*Декодированный текст помещается в поле inp вместо того значения, что в нём было ранее:*/
+          .then((data) => (InputField.value = data));
+      }
+    </script>
+
+  </body>
+</html>
