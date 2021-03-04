@@ -1,19 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
-
   <head>
     <meta charset="UTF-8" />
     <title>ITMOUniversity-NODEJS-week3</title>
   </head>
 
   <body>
-
     <form id="form" action="#">
-      <input
-        id="inp"
-        type="url"
-        placeholder="Input URL"
-      />
+      <input id="inp" type="url" placeholder="Input URL" />
       <input id="bt" type="submit" value="Send" onClick="sendURL();" />
     </form>
 
@@ -30,6 +24,5 @@
           .then((data) => (InputField.value = data));
       }
     </script>
-
   </body>
 </html>
