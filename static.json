@@ -10,6 +10,9 @@
   },
     "routes": {
       "/login/*": "login/login.txt",
-      "/sample/*": "sample/sample.txt"
+      "/sample/*": "sample/sample.txt",
+      "/promise/*": "promise/promise.txt",
+      "/fetch/*": "fetch/"
+      
   }
 }
